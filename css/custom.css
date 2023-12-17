@@ -52,9 +52,9 @@ body
     box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
+    align-items: center;
 }
+
 
 .header-title{
     font-family: var(--font-display);
@@ -74,6 +74,20 @@ body
   font-size: 3.5rem;
   line-height: 0.9;  
 
+}
+
+.go-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.go-back:hover {
+    background-color: #2980b9;
 }
 
 .counter{
