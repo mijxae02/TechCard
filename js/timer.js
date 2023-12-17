@@ -1,6 +1,6 @@
 function countDdown(){
-    let seconds = 10;
-    let minutes = 0;
+    let seconds = 0;
+    let minutes = 1;
     let secondsText;
     let minutesText;
     
@@ -23,7 +23,7 @@ function countDdown(){
         if(seconds < 10){
             secondsText = "0" + seconds;
         }
-        if(minutes < 10){
+        if(minutes < 20){
             minutesText = "0" + minutes;
         }
         document.querySelector("#minutes").innerText = minutesText;
